@@ -8,7 +8,7 @@ class ContatosExtensaoTestCase(TransactionCase):
             model_test_data = {
                 'name': 'André Leopoldino',
                 'nome_completo': 'André Leopoldino',
-                'passport_number': 'AB123456',
+                'passport_number': 'AB1234567',
 
             }
             partner = model_test.create(model_test_data)
