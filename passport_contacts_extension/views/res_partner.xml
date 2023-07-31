@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_partner_view_contacts_extension_form" model="ir.ui.view">
+        <field name="name">res.partner.view.contacts.extension.form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+             <xpath expr="//page[last()]" position="after">
+                <page name="" string="Passport">
+                    <group string="Passport Information" name="country" priority="1">
+                        <field name="name_document_holder" string='Nome do titular do Passaporte'/>
+                        <field name="passport_number" string='Número do Passaporte'/>
+                        <field name="emission_date" string='Data de Emissão'/>
+                        <field name="expiry_date" string='Data de Expiração'/>
+                        <field name="country_ids" string='País'/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

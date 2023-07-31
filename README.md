@@ -30,5 +30,5 @@ Agora que o módulo foi instalado, você pode começar a usar os campos adiciona
 Ao acessar o módulo de Contatos (Contacts), criar um novo contato, no formulário de criação, haverá uma nova page chamada "Passport".
 Basta preencher as informações conforme os novos campos.
 
-Há uma validação no formato do número de passaporte, portanto deve ser inserido um formato válido (AB-123456)
+Há uma validação no formato do número de passaporte, portanto deve ser inserido um formato válido (AB-1234567)
 
