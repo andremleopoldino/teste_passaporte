@@ -7,7 +7,7 @@
         <field name="arch" type="xml">
              <xpath expr="//page[last()]" position="after">
                 <page name="" string="Passport">
-                    <group string="Passport Information" name="country" priority="1">
+                    <group string="Passport Information" name="Passport" priority="1">
                         <field name="name_document_holder" string='Nome do titular do Passaporte'/>
                         <field name="passport_number" string='Número do Passaporte'/>
                         <field name="emission_date" string='Data de Emissão'/>
